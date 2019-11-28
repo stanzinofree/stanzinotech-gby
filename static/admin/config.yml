@@ -1,17 +1,20 @@
 backend:
   name: test-repo
+  branch: master
+  repo: Lokolin/gatsby-bee-netlify
 
-media_folder: 'static'
-public_folder: '/'
+media_folder: 'static/assets'
+public_folder: '/assets'
 
 collections:
   - name: blog
-    label: Post
-    folder: blog
+    label: 'Post'
+    folder: 'content'
     media_folder: blog
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}.md'
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: 'path', label: 'Path' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'title', label: 'Title' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
