@@ -20,8 +20,8 @@ collections:
       - { name: 'body', label: 'Body', widget: 'markdown' }
       - { name: 'category', label: 'category' }
       - {
-          label: 'Body',
-          name: 'body',
+          label: 'Slides',
+          name: 'slides',
           widget: 'slides',
           separator: "\n\n<!--s-->\n\n",
         }
