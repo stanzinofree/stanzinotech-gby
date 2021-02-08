@@ -8,6 +8,7 @@
     "url": "https://github.com/stanzinofree/stanzinotech-gby/issues"
   },
   "dependencies": {
+    "g": "^2.0.1",
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-feed": "^2.1.0",
@@ -51,7 +52,8 @@
     "typeface-montserrat": "0.0.54",
     "typeface-noto-sans-kr": "0.0.63",
     "typography": "^0.16.17",
-    "typography-theme-github": "^0.16.18"
+    "typography-theme-github": "^0.16.18",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "date-fns": "^1.30.1",
