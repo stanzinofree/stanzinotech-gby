@@ -1,29 +1,30 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  title: `StanzinoTech`,
+  description: `Microblog su Tecnologia, Sviluppo e Nerdosità varie..`,
+  author: `Alex`,
+  introduction: `Sono lo scrittore di cui il mondo non aveva bisogno ma che si merita 😎`,
+  siteUrl: `https://stanzinofree.tech`, // Your blog site url
   social: {
-    twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    twitter: `https://twitter.com/smilzao`, // Your Twitter account
+    github: `https://github.com/stanzinofree`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    facebook: `https://www.facebook.com/alessandro.middei/`, // Your Facebook account
+    linkedin: `https://www.linkedin.com/in/stanzinofree/`,
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    disqusShortName: 'stanzinofree-tech', // Your disqus-short-name. check disqus.com.
+    utterances: '', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'smilzao',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '', // Add your google analytics tranking ID
+  //ga: '', // Add your google analytics tranking ID
 }
