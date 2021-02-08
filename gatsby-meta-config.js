@@ -1,6 +1,6 @@
 module.exports = {
   title: `StanzinoTech`,
-  description: `Microblog su Tecnologia, Sviluppo e Nerdosità varie..`,
+  description: `Microblog su Tecnologia, Sviluppo e Nerdosità varie ed eventuali..`,
   author: `Alex`,
   introduction: `Sono lo scrittore di cui il mondo non aveva bisogno ma che si merita 😎`,
   siteUrl: `https://stanzinofree.tech`, // Your blog site url
